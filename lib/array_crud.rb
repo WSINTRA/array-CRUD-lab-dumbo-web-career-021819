@@ -8,7 +8,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   array_of_sorts = array
-  array_of_sorts>>element
+  array_of_sorts << element
 end
 
 def add_element_to_start_of_array(array, element)
